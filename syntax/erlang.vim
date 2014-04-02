@@ -32,9 +32,9 @@ syn match   erlangAnnotation                 /\%(%\s\)\@<=@\%(author\|clear\|cop
 syn match   erlangAnnotation                 /`[^']\+'/ contained
 
 syn keyword erlangKeyword                    band bor bnot bsl bsr bxor div rem xor
-syn keyword erlangKeyword                    try catch begin receive after cond fun let query
+syn keyword erlangKeyword                    try catch begin end receive after cond fun let query
 
-syn keyword erlangConditional                case if of end
+syn keyword erlangConditional                case if of
 syn keyword erlangConditional                not and or andalso orelse
 syn keyword erlangConditional                when
 
